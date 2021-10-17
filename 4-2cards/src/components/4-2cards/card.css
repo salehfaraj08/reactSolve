@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    background: grey;
+    width: 60vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+img {
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+
+.link {
+    color: orange;
+    margin: 8px;
+}
+
+
