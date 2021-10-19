@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.one{
+    margin: 0 10px;
+    height: 1.2rem;
+    width: 1.2rem;
+    background: red;
+    border-radius: 100%;
+    animation: jump 0.9s infinite;
+}
+
+.two{
+    margin: 0 10px;
+    height: 1.2rem;
+    width: 1.2rem;
+    background: red;
+    border-radius: 100%;
+    animation: jump 0.9s infinite 0.1s;
+}
+
+.three{
+    margin: 0 10px;
+    height: 1.2rem;
+    width: 1.2rem;
+    background: red;
+    border-radius: 100%;
+    animation: jump 0.9s infinite 0.2s;
+}
+
+@keyframes jump{
+    0%{
+        transform: translateY(0px);
+        background: teal;
+    }
+    50%{
+        transform: translateY(-2.4rem);
+    }   
+    100%{
+        transform: translateY(0);
+        background: lightblue;
+    }
+}
