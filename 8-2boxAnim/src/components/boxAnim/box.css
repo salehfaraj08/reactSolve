@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    background: red;
+    animation: boxAnim 2s linear;
+}
+
+@keyframes boxAnim {
+    0% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
