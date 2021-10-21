@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input{
+    height:'4vh';
+    width:'12vw';
+    margin-left:'3vw'
+}
