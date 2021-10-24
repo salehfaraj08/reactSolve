@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.persons{
+  display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.person{
+  display: flex;
+  flex-direction: column;
+  height: 35vh;
+  width: 15vw;
+  border: 1px solid#FF4E50;
+}
+
+img{
+  margin-top: 1rem;
+  width: auto;
+  height: auto;
+}
+
+.input-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
